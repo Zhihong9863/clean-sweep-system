@@ -13,6 +13,7 @@ The **Clean Sweep System** is composed of several modules that work together to 
 
 The system is built to follow agile methodologies and object-oriented principles, ensuring high modularity and maintainability.
 
+<<<<<<< HEAD
 ## Project Structure
 
 The **Clean Sweep System** has a modular structure, as follows:
@@ -67,3 +68,4 @@ The **Clean Sweep System** has a modular structure, as follows:
 To build and run the application, use the following command:
 ```sh
 mvn spring-boot:run
+
