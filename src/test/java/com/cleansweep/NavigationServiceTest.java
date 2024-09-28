@@ -1,5 +1,6 @@
 package com.cleansweep;
 
+<<<<<<< HEAD
 import com.cleansweep.model.Cell;
 import com.cleansweep.model.FloorMap;
 import com.cleansweep.model.Vacuum;
@@ -58,4 +59,7 @@ public class NavigationServiceTest {
         // Then vacuum should navigate and update positions accordingly
         assertEquals(0, vacuum.getCurrentX()); // This should be updated dynamically
     }
+=======
+public class NavigationServiceTest {
+>>>>>>> 8276857 (Initial commit with project structure and dependencies)
 }

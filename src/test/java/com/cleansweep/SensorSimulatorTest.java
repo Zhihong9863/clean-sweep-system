@@ -1,5 +1,6 @@
 package com.cleansweep;
 
+<<<<<<< HEAD
 import com.cleansweep.model.Cell;
 import com.cleansweep.model.FloorMap;
 import com.cleansweep.service.SensorSimulatorService;
@@ -39,4 +40,7 @@ public class SensorSimulatorTest {
         // Test valid movement
         assertTrue(sensorSimulatorService.canMove(0, 1, floorMap));
     }
+=======
+public class SensorSimulatorTest {
+>>>>>>> 8276857 (Initial commit with project structure and dependencies)
 }
