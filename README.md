@@ -13,4 +13,5 @@ The **Clean Sweep System** is composed of several modules that work together to 
 
 The system is built to follow agile methodologies and object-oriented principles, ensuring high modularity and maintainability.
 
-
+##Running condition
+![1727561490223](https://github.com/user-attachments/assets/7a053912-1364-47eb-87fc-6a668d144e68)
