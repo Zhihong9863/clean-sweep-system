@@ -41,39 +41,4 @@ jobs:
       - name: Run unit tests
         run: mvn test --batch-mode --no-transfer-progress
 
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
 
-    steps:
-      # Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      # Set up JDK 17
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-
-      # Create a new Git tag
-      - name: Create Git tag
-        id: tag
-        run: |
-          TAG_NAME="v$(date +'%Y%m%d%H%M%S')"
-          echo "Creating tag $TAG_NAME"
-          git tag $TAG_NAME
-          git push origin $TAG_NAME
-          echo "::set-output name=tag::$TAG_NAME"
-
-      # Create a GitHub release with the new tag
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.tag.outputs.tag }}
-          files: |
-            target/*.jar
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
