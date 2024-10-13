@@ -13,7 +13,6 @@ The **Clean Sweep System** is composed of several modules that work together to 
 
 The system is built to follow agile methodologies and object-oriented principles, ensuring high modularity and maintainability.
 
-<<<<<<< HEAD
 ## Project Structure
 
 The **Clean Sweep System** has a modular structure, as follows:
@@ -49,16 +48,10 @@ The **Clean Sweep System** has a modular structure, as follows:
 ![UML digram - sprint 1](https://github.com/user-attachments/assets/859be0d3-6de2-4b4d-9ef0-4737e1679d5f)
 
 ## Running the Project
-![cbcf5f64557e90243ba1572c5b06cae](https://github.com/user-attachments/assets/b33640a5-fac6-4aeb-b624-ddc5155b16ba)
 ![44d35bae3f5fb42113b571b762ddd66](https://github.com/user-attachments/assets/e63f49b4-690f-4be3-8151-587481168af2)
 
 ## Testing the Project
-![6a25483bad2eb5185ffd1999d18294d](https://github.com/user-attachments/assets/058e8809-0335-4b54-82cd-24802c92cf92)
-![6b7a528f8e1d6de5f89fe0f7453fa1a](https://github.com/user-attachments/assets/ed36ffe9-0eda-4f99-af20-cf80f2dc2f49)
 ![1dbf6e29c38a125f559a7d2b4ae87e6](https://github.com/user-attachments/assets/bb1f31a6-3e43-4ecb-aadd-423e18edfcee)
-
-## CI Pipeline Condition
-![image](https://github.com/user-attachments/assets/dd253e74-f156-40ee-a03b-c2f9bfaf7fe4)
 
 ### Prerequisites
 - **Java 17**
