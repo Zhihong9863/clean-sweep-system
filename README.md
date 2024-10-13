@@ -11,7 +11,7 @@ The **Clean Sweep System** is composed of several modules that work together to 
 - **Power Management**: Manages battery life based on the surface type, navigation, and cleaning requirements.
 - **Sensor Simulation**: Simulates sensor data, including obstacle detection, surface types, and dirt levels, to allow the control system to react as if operating in a real-world environment.
 
-The system is built to follow agile methodologies and object-oriented principles, ensuring high modularity and maintainability.
+The system is built to follow agile methodologies and object-oriented principles, ensuring high modularity and maintainability
 
 ## Project Structure
 
