@@ -1,6 +1,5 @@
 package com.cleansweep;
 
-<<<<<<< HEAD
 import com.cleansweep.model.Cell;
 import com.cleansweep.model.FloorMap;
 import com.cleansweep.service.SensorSimulatorService;
@@ -10,6 +9,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Unit tests for SensorSimulatorService.
+ *
+ * This class tests the ability of the sensor simulator to determine whether the Clean Sweep robot can move
+ * to a given cell, considering obstacles and boundaries of the floor map.
+ */
 public class SensorSimulatorTest {
 
     private SensorSimulatorService sensorSimulatorService;
@@ -40,7 +45,4 @@ public class SensorSimulatorTest {
         // Test valid movement
         assertTrue(sensorSimulatorService.canMove(0, 1, floorMap));
     }
-=======
-public class SensorSimulatorTest {
->>>>>>> 8276857 (Initial commit with project structure and dependencies)
 }

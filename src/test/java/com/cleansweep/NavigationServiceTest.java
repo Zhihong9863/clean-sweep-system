@@ -1,6 +1,5 @@
 package com.cleansweep;
 
-<<<<<<< HEAD
 import com.cleansweep.model.Cell;
 import com.cleansweep.model.FloorMap;
 import com.cleansweep.model.Vacuum;
@@ -16,6 +15,12 @@ import org.mockito.MockitoAnnotations;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
+/**
+ * Unit tests for NavigationService.
+ *
+ * This class tests the navigation functionality of the Clean Sweep robot, ensuring that the robot can navigate
+ * correctly and handle different types of cells on the floor map.
+ */
 public class NavigationServiceTest {
 
     @Mock
@@ -57,9 +62,6 @@ public class NavigationServiceTest {
         navigationService.startNavigation();
 
         // Then vacuum should navigate and update positions accordingly
-        assertEquals(0, vacuum.getCurrentX()); // This should be updated dynamically
+        assertEquals(0, vacuum.getCurrentX()); // This should be updated dynamically (placeholder for now)
     }
-=======
-public class NavigationServiceTest {
->>>>>>> 8276857 (Initial commit with project structure and dependencies)
 }
